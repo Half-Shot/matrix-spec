@@ -17,19 +17,19 @@ allOf:
         properties:
           media_previews:
             type: string
-            default: on
+            default: 'on'
             enum:
-              - off
-              - private
-              - on
+              - 'off'
+              - 'private'
+              - 'on'
             description: |-
               Controls whether media in a room is shown automatically.
           invite_avatars:
             type: string
-            default: on
+            default: 'on'
             enum:
-              - off
-              - on
+              - 'off'
+              - 'on'
             description: |-
               Controls whether avatars are shown for rooms the user has been invited to.
       type:
